@@ -31,7 +31,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <view alpha="0.40000000000000002" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NSd-So-3bo" userLabel="bgView">
-                    <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                     <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1fN-xm-OvI">
@@ -99,12 +99,12 @@
             </subviews>
             <constraints>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="1fN-xm-OvI" secondAttribute="trailing" constant="20" id="5II-iO-rnd"/>
-                <constraint firstItem="NSd-So-3bo" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="A2Y-bF-vrK"/>
                 <constraint firstItem="1fN-xm-OvI" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="F3J-xA-K5W"/>
                 <constraint firstItem="NSd-So-3bo" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="Khe-aj-goP"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="NSd-So-3bo" secondAttribute="trailing" id="aB7-lV-yMq"/>
                 <constraint firstItem="1fN-xm-OvI" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="dRT-gB-F2o"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="NSd-So-3bo" secondAttribute="bottom" id="epo-JU-szl"/>
+                <constraint firstItem="NSd-So-3bo" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="oUb-VE-VK8"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <point key="canvasLocation" x="33.5" y="54.5"/>

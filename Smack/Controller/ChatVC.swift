@@ -16,12 +16,16 @@ class ChatVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         menuBtn.addTarget(self.revealViewController(), action: #selector(SWRevealViewController.revealToggle(_:)), for: .touchUpInside)
-        
         // Swipe to open menu
         self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
-        
         // Tap to return to chat and close menu
         self.view.addGestureRecognizer(self.revealViewController().tapGestureRecognizer())
+        
+        if AuthService.instance.isLoggedIn {
+            AuthService.instance.findUserByEmail(completion: { (success) in
+                NotificationCenter.default.post(name: NOTIF_USER_DATA_DID_CHANGE, object: nil)
+            })
+        }
     }
 
     
