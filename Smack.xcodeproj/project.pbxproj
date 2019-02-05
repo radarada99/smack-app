@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		754172212209D194009AF216 /* AddChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7541721F2209D194009AF216 /* AddChannelVC.swift */; };
 		754172222209D194009AF216 /* AddChannelVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 754172202209D194009AF216 /* AddChannelVC.xib */; };
+		754172242209DAB5009AF216 /* SocketService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754172232209DAB5009AF216 /* SocketService.swift */; };
 		75AEA90221EE366C00AFA319 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AEA90121EE366C00AFA319 /* AppDelegate.swift */; };
 		75AEA90721EE366C00AFA319 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75AEA90521EE366C00AFA319 /* Main.storyboard */; };
 		75AEA90921EE366C00AFA319 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75AEA90821EE366C00AFA319 /* Assets.xcassets */; };
@@ -39,6 +40,7 @@
 		3E08EA6CC3B4A144993A039A /* Pods_Smack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7541721F2209D194009AF216 /* AddChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddChannelVC.swift; sourceTree = "<group>"; };
 		754172202209D194009AF216 /* AddChannelVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddChannelVC.xib; sourceTree = "<group>"; };
+		754172232209DAB5009AF216 /* SocketService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketService.swift; sourceTree = "<group>"; };
 		75AEA8FE21EE366C00AFA319 /* Smack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75AEA90121EE366C00AFA319 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75AEA90621EE366C00AFA319 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -183,6 +185,7 @@
 				75AEA92921F0391400AFA319 /* AuthService.swift */,
 				75F6A70821F24CF70069280C /* UserDataService.swift */,
 				75DB536022060125001CC08E /* MessageService.swift */,
+				754172232209DAB5009AF216 /* SocketService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -327,6 +330,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				754172242209DAB5009AF216 /* SocketService.swift in Sources */,
 				75F84C572204D35000B0CEEE /* ProfileVC.swift in Sources */,
 				75DB536522060710001CC08E /* ChannelCell.swift in Sources */,
 				75AEA91E21EE434A00AFA319 /* ChannelVC.swift in Sources */,

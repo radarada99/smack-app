@@ -23,6 +23,11 @@ class ChannelVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         self.revealViewController().rearViewRevealWidth = self.view.frame.size.width - 60
         // Listener that calls the userDataDidChange function whenever the NOTIF_USER_DATA_DID_CHANGE happens
         NotificationCenter.default.addObserver(self, selector: #selector(ChannelVC.userDataDidChange(_:)), name: NOTIF_USER_DATA_DID_CHANGE, object: nil)
+        SocketService.instance.getChannel { (success) in
+            if success {
+                self.tableView.reloadData()
+            }
+        }
     }
     
     @IBAction func loginBtnPressed(_ sender: Any) {
@@ -45,7 +50,6 @@ class ChannelVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         addChannel.modalPresentationStyle = .custom
         present(addChannel, animated: true, completion: nil)
     }
-    
     
     @objc func userDataDidChange(_ notif: Notification) {
         setupUserInfo()
