@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		75032B03220B70D5002FE064 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75032B02220B70D5002FE064 /* Message.swift */; };
 		754172212209D194009AF216 /* AddChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7541721F2209D194009AF216 /* AddChannelVC.swift */; };
 		754172222209D194009AF216 /* AddChannelVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 754172202209D194009AF216 /* AddChannelVC.xib */; };
 		754172242209DAB5009AF216 /* SocketService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754172232209DAB5009AF216 /* SocketService.swift */; };
@@ -38,6 +39,7 @@
 /* Begin PBXFileReference section */
 		0489A10F28D1E0EF6E53A557 /* Pods-Smack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smack.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Smack/Pods-Smack.debug.xcconfig"; sourceTree = "<group>"; };
 		3E08EA6CC3B4A144993A039A /* Pods_Smack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75032B02220B70D5002FE064 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		7541721F2209D194009AF216 /* AddChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddChannelVC.swift; sourceTree = "<group>"; };
 		754172202209D194009AF216 /* AddChannelVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddChannelVC.xib; sourceTree = "<group>"; };
 		754172232209DAB5009AF216 /* SocketService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketService.swift; sourceTree = "<group>"; };
@@ -167,6 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				75DB53622206014B001CC08E /* Channel.swift */,
+				75032B02220B70D5002FE064 /* Message.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -336,6 +339,7 @@
 				75AEA91E21EE434A00AFA319 /* ChannelVC.swift in Sources */,
 				75DA370421F77A0F00974E74 /* AvatarPickerVC.swift in Sources */,
 				75F6A70721F171090069280C /* RoundedButton.swift in Sources */,
+				75032B03220B70D5002FE064 /* Message.swift in Sources */,
 				75DB53632206014B001CC08E /* Channel.swift in Sources */,
 				75DA37082200AB1B00974E74 /* CircleImage.swift in Sources */,
 				75DB536122060125001CC08E /* MessageService.swift in Sources */,
